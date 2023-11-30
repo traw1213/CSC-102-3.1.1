@@ -1,0 +1,46 @@
+html, body {
+    height: 100%; /* Ensure the html and body cover the full height of the viewport */
+    margin: 0; 
+    padding: 0; 
+}
+
+body {
+    background: linear-gradient(to top, grey, navy);
+    
+
+}
+
+header { 
+    font-size: 80px;
+    text-align: center;
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-shadow: 5px 5px 2px rgb(59, 59, 55);
+}
+
+h1 {
+    color: goldenrod;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+ul {
+    font-size: 30px;
+    color: red;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 25%;
+    font-size: 25px;
+    color: goldenrod;
+    
+}
+
